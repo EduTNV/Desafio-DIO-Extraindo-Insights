@@ -125,16 +125,4 @@ Restrições:
 
 ---
 
-## O que torna esse prompt eficaz
-
-| Decisão | Motivo |
-|---|---|
-| Separar falhas operacionais de falhas de confiança | Problemas de segurança percebida têm impacto maior no churn e exigem ação de squads diferentes |
-| Campo `categoria_auto` nos dados disponíveis | Reflete pipelines reais de dados bancários com tagging por ML |
-| Proibir "fraude confirmada" na linguagem | Evita passivo jurídico e mantém a análise dentro do que os dados suportam |
-| Ações separadas por responsável | Produto digital e segurança do cliente têm backlogs distintos |
-| Referência explícita à LGPD | Dado obrigatório em qualquer sistema que trate dados de clientes bancários no Brasil |
-
----
-
 *Desafio resolvido como parte do Bootcamp Bradesco GenAI, Dados e Cybersec — DIO.*
